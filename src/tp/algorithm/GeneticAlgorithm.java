@@ -1,15 +1,15 @@
-package algorithm;
+package tp.algorithm;
 
-import representation.Couple;
-import representation.PentominosBoard;
-import representation.Population;
+import tp.representation.Couple;
+import tp.representation.PentominosBoard;
+import tp.representation.Population;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 /**
- * This class implements a genetic algorithm to solve a Pentominos problem.
+ * This class implements a genetic tp.algorithm to solve a Pentominos problem.
  *
  * @author Documented by Hugo Gilbert, a large part of the code
  * was written by David Eck and Julien Lesca

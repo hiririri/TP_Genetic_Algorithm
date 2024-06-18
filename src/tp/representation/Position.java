@@ -1,4 +1,4 @@
-package representation;
+package tp.representation;
 
 /**
  * This class represents the position of a
@@ -36,8 +36,8 @@ public class Position{
 	
 	
 	/**
-	 * Yields a string representation of the position.
-	 * @return Returns a string representation of the position.
+	 * Yields a string tp.representation of the position.
+	 * @return Returns a string tp.representation of the position.
 	 */
 	@Override public String toString() {
 		return "[ " + this.row + ", " + this.column + " ]";

@@ -1,15 +1,15 @@
-package representation;
+package tp.representation;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import algorithm.RandomSelector;
+import tp.algorithm.RandomSelector;
 
 
 /**
  * This class represents a population of individuals,
- *  e.g., PentominosBoards in the genetic algorithm. 
+ *  e.g., PentominosBoards in the genetic tp.algorithm.
  * @author Documented by Hugo Gilbert, a large part of the code 
  * was written by David Eck and Julien Lesca
  *

@@ -1,4 +1,4 @@
-package graphical;
+package tp.graphical;
 
 import java.awt.*;
 import javax.swing.*;

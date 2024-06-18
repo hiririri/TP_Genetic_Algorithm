@@ -1,4 +1,4 @@
-package representation;
+package tp.representation;
 import java.awt.Color;
 import java.util.ArrayList;
 
@@ -25,7 +25,7 @@ public class PentominosBoard implements Comparable<PentominosBoard>{
      * The remaining 4 squares in the piece are encoded by 8 numbers that give the row and column of each of the remaining squares.
      * If the eight numbers that describe the piece are (a,b,c,d,e,f,g,h) then when the piece is placed on the board with the top-left square at position (r,c),
      * the remaining squares will be at positions (r+a,c+b), (r+c,c+d), (r+e,c+f), and (r+g,c+h).
-     * This representation is used in the putPiece() and removePiece() methods. 
+     * This tp.representation is used in the putPiece() and removePiece() methods.
      */
     private  static final int[][] pieces = {
         { 1, 0,1,0,2,0,3,0,4 },  // Describes piece 1 (the "I" pentomino) in its horizontal orientation.
@@ -435,8 +435,8 @@ public class PentominosBoard implements Comparable<PentominosBoard>{
 	}
 	
 	/**
-	 * This method provides a String representation of the PentominosBoard  
-	 * @return a String representation of the PentominosBoard 
+	 * This method provides a String tp.representation of the PentominosBoard
+	 * @return a String tp.representation of the PentominosBoard
 	 */
 	@Override public String toString() {
 		String s = "";

@@ -1,9 +1,9 @@
-package graphical;
+package tp.graphical;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import algorithm.GeneticAlgorithm;
-import representation.PentominosBoard;
+import tp.algorithm.GeneticAlgorithm;
+import tp.representation.PentominosBoard;
 
 public class PentominosMouseAdapter extends MouseAdapter{
 	private LittlePentominos lp;

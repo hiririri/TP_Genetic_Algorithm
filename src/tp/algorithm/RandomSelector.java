@@ -1,10 +1,10 @@
-package algorithm;
+package tp.algorithm;
 import java.util.ArrayList;
 
 /**
  * This class makes it possible to choose randomly an element
  * within a set where the probability of picking an element
- * is proportional to its value (fitness in the genetic algorithm). 
+ * is proportional to its value (fitness in the genetic tp.algorithm).
  * @author Documented by Hugo Gilbert, a large part of the code 
  * was written by David Eck and Julien Lesca
  *
@@ -22,7 +22,7 @@ public class RandomSelector {
 	
 	/**
 	 * This method adds an element to the set of values that
-	 * can be chosen from. In the context of the genetic algorithm
+	 * can be chosen from. In the context of the genetic tp.algorithm
 	 * the value i is the fitness of some individual.
 	 * @param i, the fitness of the individual to be added to 
 	 * the  RandomSelector.

@@ -1,7 +1,7 @@
 module TP {
-	exports graphical;
-	exports representation;
-	exports algorithm;
+	exports tp.graphical;
+	exports tp.representation;
+	exports tp.algorithm;
 
 	requires java.desktop;
 }

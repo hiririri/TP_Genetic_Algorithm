@@ -1,10 +1,10 @@
-package graphical;
+package tp.graphical;
 
 import java.awt.*;
 
 import javax.swing.*;
 
-import representation.PentominosBoard;
+import tp.representation.PentominosBoard;
 
 /**
  * This program solves pentominos puzzles.  A pentomino consists of 5 connected squares.  There are exactly
@@ -13,7 +13,7 @@ import representation.PentominosBoard;
  * the pieces.  This version uses an 8-by-8 board.  In this case, the pentominos will fill
  * 60 of the 64 available squares on the board.  The squares that are to be left empty are selected
  * in advance at random and are colored black.  The main point of the program is to demo a
- * recursive backtracking algorithm, so the process is slowed down enough to see what is going
+ * recursive backtracking tp.algorithm, so the process is slowed down enough to see what is going
  * on.  See http://math.hws.edu/xJava/PentominosSolver for a greatly enhanced version of this program,
  * including the ability to quickly find solutions.
  * 
@@ -277,7 +277,7 @@ public class LittlePentominos extends JPanel{
                     blockCheckCt = 0;
                     aborted = false;
                     if (!obviousBlockExists())
-                        play(startRow,startCol);   // run the recursive algorithm that will solve the puzzle
+                        play(startRow,startCol);   // run the recursive tp.algorithm that will solve the puzzle
                     board.repaint();
                 }
                 catch (Exception e) {
